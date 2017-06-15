@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <startup useLegacyV2RuntimeActivationPolicy="true"> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>
+    </startup>
+  <connectionStrings>
+    <add name="PosConString" connectionString="SERVER = SONY-PC; DATABASE =WAREHOUSE; user id = sa; PASSWORD = 123" providerName="System.Data.SqlClient" />
+    <add name="cryServer" connectionString="SONY-PC" />
+    <add name="cryDatabase" connectionString="WAREHOUSE" />
+    <add name="cryUserID" connectionString="sa" />
+    <add name="cryPass" connectionString="123" />
+
+    <!--<add name="PosConString" connectionString="SERVER = China-PC; DATABASE =WAREHOUSE; user id = sa; PASSWORD = 123"/>
+    <add name="cryServer" connectionString="China-PC"/>
+    <add name="cryDatabase" connectionString="WAREHOUSE"/>
+    <add name="cryUserID" connectionString="sa"/>
+    <add name="cryPass" connectionString="123"/>-->
+
+    <!--<add name="PosConString" connectionString="SERVER = DESKTOP-GTT0V0O; DATABASE =Factory; user id = salesman; PASSWORD = @sonali123"/>
+    <add name="cryServer" connectionString="DESKTOP-GTT0V0O"/>
+    <add name="cryDatabase" connectionString="Factory"/>
+    <add name="cryUserID" connectionString="salesman"/>
+    <add name="cryPass" connectionString="@sonali123"/>-->
+
+  </connectionStrings>
+</configuration>
